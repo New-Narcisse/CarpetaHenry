@@ -11,7 +11,10 @@ function crearClasePersona() {
       // Inicializar las propiedades de la persona con los valores recibidos como argumento
 
       // Tu código aca:
-
+      Persona.nombre = this.nombre,
+      Persona.edad = this.edad,
+      Persona.hobbies = this.hobbies,
+      Persona.amigos = this.amigos
     }
 
     addFriend(nombre, edad) {
